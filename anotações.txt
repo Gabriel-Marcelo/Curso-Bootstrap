@@ -1,0 +1,9 @@
+-Layouts
+col-xl-1(extra largo)
+	.
+	.
+	.
+col-xl-12
+
+col-lg-1(largo)
+col-sm-1(Para dispositivos pequenos)

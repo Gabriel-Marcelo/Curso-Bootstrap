@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Tooltips</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<style type="text/css">
+			.row{
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<button type="button" class="btn btn-secondary" data-toggle="tooltip"
+					data-placement="top" title="Tooltip no Topo">
+						Tooltip Top
+					</button>
+					<button type="button" class="btn btn-secondary" data-toggle="tooltip"
+					data-placement="right" title="Tooltip na Direita">
+						Tooltip Right
+					</button>
+					<button type="button" class="btn btn-secondary" data-toggle="tooltip"
+					data-placement="bottom" title="Tooltip em baixo">
+						Tooltip Bottom
+					</button>
+					<button type="button" class="btn btn-secondary" data-toggle="tooltip"
+					data-placement="left" title="Tooltip na esquerda">
+						Tooltip Left
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('[data-toggle="tooltip"]').tooltip()
+			})
+		</script>
+	</body>
+</html>
